@@ -1,7 +1,6 @@
-import logo from './logo.svg';
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './App.css';
-
+import "./App.css";
 
 function App() {
   return (
@@ -23,8 +22,8 @@ function App() {
           </div>
         </form>
         <hr />
-        <h1 id="city"></h1>
-        <h2 id="date"></h2>
+        <h1 id="city">Enter a city</h1>
+        <h2 id="date">Current date</h2>
         <div className="row">
           <div className="col-6">
             <div className="temperature-container">
@@ -32,7 +31,9 @@ function App() {
 
               <span id="temperature"></span>
               <span className="temperature-units" id="celsius-link">
-                <a>°C</a>
+                <a href="#" target="_blank" rel="noreferrer">
+                  °C
+                </a>
               </span>
             </div>
 
@@ -71,6 +72,7 @@ function App() {
               className="coder"
               id="name"
               target="_blank"
+              rel="noreferrer"
             >
               Zeinab Jorkesh
             </a>{" "}
@@ -80,15 +82,17 @@ function App() {
               className="coder"
               id="github"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>{" "}
             and hosted on{" "}
             <a
-              href="https://weather-app-react-base.netlify.app/"
+              href="https://weather-app-react-base.netlify.app"
               className="coder"
               id="netlify"
               target="_blank"
+              rel="noreferrer"
             >
               Netlify
             </a>
