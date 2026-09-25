@@ -30,7 +30,11 @@ function App() {
 
               <span id="temperature"></span>
               <span className="temperature-units" id="celsius-link">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.google.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   °C
                 </a>
               </span>
